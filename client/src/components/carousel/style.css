@@ -1,0 +1,13 @@
+.carouselWrapper {
+  background-color: grey;
+  height: 100px;
+  width: 100%;
+}
+
+.side {
+  display: none;
+}
+
+.active {
+  display: block;
+}
