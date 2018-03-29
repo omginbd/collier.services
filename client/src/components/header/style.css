@@ -1,0 +1,15 @@
+.colorFlair {
+  background-color: #455A64;
+  height: 1em;
+  width: 100%;
+}
+
+.title {
+  align-items: center;
+  background-color: #607D8B;
+  color: white;
+  display: flex;
+  font-size: 32px;
+  height: 5em;
+  justify-content: center;
+}

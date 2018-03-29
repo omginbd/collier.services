@@ -1,0 +1,31 @@
+{
+  "name": "collier.services",
+  "version": "1.0.0",
+  "description": "I'm gonna market myself!",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel client/index.html -p 8000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omginbd/collier.services.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omginbd/collier.services/issues"
+  },
+  "homepage": "https://github.com/omginbd/collier.services#readme",
+  "dependencies": {
+    "autoprefixer": "^8.2.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.7.0",
+    "postcss-modules": "^1.1.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-hot-loader": "^4.0.0"
+  }
+}
