@@ -35,6 +35,8 @@
 .cardFooter {
   align-items: center;
   background-color: #CFD8DC;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
   display: flex;
   height: 36px;
   width: 100%;
@@ -44,6 +46,8 @@
 .cardTitle {
   align-items: center;
   background-color: #CFD8DC;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
   display: flex;
   font-weight: bold;
   height: 32px;
