@@ -1,13 +1,61 @@
-.carouselWrapper {
-  background-color: grey;
-  height: 100px;
+.card {
+  align-items: center;
+  background-color: white;
+  border-radius: 2px;
+  display: flex;
+  flex-flow: column;
+  height: 200px;
+  justify-content: center;
+  margin: 8px 0;
+  min-width: 250px;
+  transition: all 0.25s;
+  width: 30vw;
+}
+
+.card:hover {
+  box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.5);
+  transform: translate(0, -1px);
+  transition: all 0.25s;
+}
+
+.cardButton {
+  background-color: #795548;
+  border-radius: 10px;
+  color: white;
+  height: 24px;
+  padding: 0 8px;
+}
+
+.cardContent {
+  height: 180px;
+  overflow: auto;
+  padding: 4px;
+}
+
+.cardFooter {
+  align-items: center;
+  background-color: #CFD8DC;
+  display: flex;
+  height: 36px;
+  width: 100%;
+  justify-content: center;
+}
+
+.cardTitle {
+  align-items: center;
+  background-color: #CFD8DC;
+  display: flex;
+  font-weight: bold;
+  height: 32px;
+  justify-content: center;
   width: 100%;
 }
 
-.side {
-  display: none;
-}
-
-.active {
-  display: block;
+.carouselWrapper {
+  align-items: space-around;
+  background-color: #757575;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 100%;
 }

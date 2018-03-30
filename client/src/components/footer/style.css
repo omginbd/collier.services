@@ -1,6 +1,7 @@
 .footer {
   align-items: center;
-  background-color: #795548;
+  background-color: black;
+  background-image: linear-gradient(#757575, #000);
   color: white;
   display: flex;
   height: 5em;
