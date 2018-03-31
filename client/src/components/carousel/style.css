@@ -12,18 +12,18 @@
   width: 32vw;
 }
 
-.card:hover {
-  box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.5);
-  transform: translate(0, -1px);
-  transition: all 0.25s;
-}
-
 .cardButton {
   background-color: #795548;
-  border-radius: 10px;
+  border-radius: 2px;
   color: white;
   height: 24px;
   padding: 0 8px;
+}
+
+.cardButton:hover {
+  box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.5);
+  transform: translate(0, -1px);
+  transition: all 0.25s;
 }
 
 .cardContent {
@@ -57,7 +57,6 @@
 
 .carouselWrapper {
   align-items: space-around;
-  background-color: #757575;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;

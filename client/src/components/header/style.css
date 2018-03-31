@@ -1,7 +1,14 @@
 .colorFlair {
   background-color: #455A64;
-  height: 1em;
+  display: flex;
+  flex-flow: row-reverse;
   width: 100%;
+}
+
+.colorFlair a{
+  color: white;
+  margin: 0 8px;
+  text-decoration: none;
 }
 
 .title {
